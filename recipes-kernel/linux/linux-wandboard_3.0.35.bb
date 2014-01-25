@@ -1,4 +1,4 @@
-# adapted from linux-imx.inc, copyright (C) 2012-2013 O.S. Systems Software LTDA
+# adapted from linux-imx.inc, copyright (C) 2012-2014 O.S. Systems Software LTDA
 # Released under the MIT license (see COPYING.MIT for the terms)
 
 include linux-wandboard.inc
@@ -15,6 +15,7 @@ SRC_URI += "file://drm-vivante-Add-00-sufix-in-returned-bus-Id.patch \
             file://0003-ENGR00261814-4-gpu-use-new-PU-power-on-off-interface.patch \
             file://0004-ENGR00264288-1-GPU-Integrate-4.6.9p12-release-kernel.patch \
             file://0005-ENGR00264275-GPU-Correct-suspend-resume-calling-afte.patch \
-            file://0006-ENGR00265130-gpu-Correct-section-mismatch-in-gpu-ker.patch"
+            file://0006-ENGR00265130-gpu-Correct-section-mismatch-in-gpu-ker.patch \
+            file://ENGR00278350-gpu-viante-4.6.9p13-kernel-part-integra.patch"
 
 COMPATIBLE_MACHINE = "(wandboard)"
